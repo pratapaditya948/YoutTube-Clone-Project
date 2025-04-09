@@ -14,13 +14,13 @@
     row-gap: 40px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 510px) {
     .video-grid {
         grid-template-columns: 1fr;
     }
 }
 
-@media (min-width:401px) and (max-width: 800px) {
+@media (min-width:511px) and (max-width: 800px) {
     .video-grid {
         grid-template-columns: 1fr 1fr;
     }
